@@ -76,6 +76,7 @@
             </div>
             <h3>${movie.title}</h3>
             <p>⭐${movie.rating}</p>
+            <p>개봉일: ${movie.release_date}</p>
           `;
           movieList.appendChild(card);
         }
@@ -109,8 +110,8 @@
           case "popularity":
             filteredMovies.sort((a, b) => b.popularity - a.popularity);
             break;
-          case "year":
-            filteredMovies.sort((a, b) => new Date(b.year) - new Date(a.year));
+          case "release-date":
+            filteredMovies.sort((a, b) => new Date(b.release_date) - new Date(a.release_date));
             break;
       }
 
