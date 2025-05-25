@@ -91,7 +91,7 @@
     "title": "Dracula: Dead and Loving It",
     "rating": 5.7,
     "overview": "When a lawyer shows up at the vampire's doorstep, he falls prey to his charms and joins him in his search for fresh blood. Enter Dr. van Helsing, who may be the only one able to vanquish the count.",
-    "poster": "/images/Dracula.jpg",
+    "poster": "images/Dracula.jpg",
     "year": 1995,
     "popularity": 5.430331
   },
@@ -99,7 +99,7 @@
     "title": "Balto",
     "rating": 7.1,
     "overview": "An outcast half-wolf risks his life to prevent a deadly epidemic from ravaging Nome, Alaska.",
-    "poster": "/images/Balto.jpg",
+    "poster": "images/Balto.jpg",
     "year": 1995,
     "popularity": 12.140733
   },
@@ -107,7 +107,7 @@
     "title": "Nixon",
     "rating": 7.1,
     "overview": "An all-star cast powers this epic look at American President Richard M. Nixon, a man carrying the fate of the world on his shoulders while battling the self-destructive demands within. Spanning his troubled boyhood in California to the shocking Watergate scandal that would end his presidency.",
-    "poster": "/images/Nixon.jpg",
+    "poster": "images/Nixon.jpg",
     "year": 1995,
     "popularity": 5.092
   },
@@ -115,7 +115,7 @@
     "title": "Cutthroat Island",
     "rating": 5.7,
     "overview": "Morgan Adams and her slave, William Shaw, are on a quest to recover the three portions of a treasure map. Unfortunately, the final portion is held by her murderous uncle, Dawg. Her crew is skeptical of her leadership abilities, so she must complete her quest before they mutiny against her. This is made yet more difficult by the efforts of the British crown to end her pirate raids.",
-    "poster": "/images/CutthroatIsland.jpg",
+    "poster": "images/CutthroatIsland.jpg",
     "year": 1995,
     "popularity": 7.284477
   },
@@ -123,7 +123,7 @@
     "title": "Casino",
     "rating": 7.8,
     "overview": "The life of the gambling paradise – Las Vegas – and its dark mafia underbelly.",
-    "poster": "/images/Casino.jpg",
+    "poster": "images/Casino.jpg",
     "year": 1995,
     "popularity": 10.137389
   },
@@ -131,7 +131,7 @@
     "title": "Sense and Sensibility",
     "rating": 7.2,
     "overview": "Rich Mr. Dashwood dies, leaving his second wife and her daughters poor by the rules of inheritance. Two daughters are the titular opposites.",
-    "poster": "/images/SenseAndSensibility.jpg",
+    "poster": "images/SenseAndSensibility.jpg",
     "year": 1995,
     "popularity": 10.673167
   },
@@ -139,7 +139,7 @@
     "title": "Four Rooms",
     "rating": 6.5,
     "overview": "It's Ted the Bellhop's first night on the job...and the hotel's very unusual guests are about to place him in some outrageous predicaments. It seems that this evening's room service is serving up one unbelievable happening after another.",
-    "poster": "/images/FourRooms.jpg",
+    "poster": "images/FourRooms.jpg",
     "year": 1995,
     "popularity": 9.026586
   },
@@ -147,7 +147,7 @@
     "title": "Ace Ventura: When Nature Calls",
     "rating": 6.1,
     "overview": "Summoned from an ashram in Tibet, Ace finds himself on a perilous journey into the jungles of Africa to find Shikaka, the missing sacred animal of the friendly Wachati tribe. He must accomplish this before the wedding of the Wachati's Princess to the prince of the warrior Wachootoos. If Ace fails, the result will be a vicious tribal war.",
-    "poster": "/images/AceVentura.jpg",
+    "poster": "images/AceVentura.jpg",
     "year": 1995,
     "popularity": 8.205448
   },
@@ -155,7 +155,7 @@
     "title": "Money Train",
     "rating": 5.4,
     "overview": "A vengeful New York transit cop decides to steal a trainload of subway fares; his foster brother, a fellow cop, tries to protect him.",
-    "poster": "/images/MoneyTrain.jpg",
+    "poster": "images/MoneyTrain.jpg",
     "year": 1995,
     "popularity": 7.337906
   },
@@ -163,7 +163,7 @@
     "title": "Get Shorty",
     "rating": 6.4,
     "overview": "Chili Palmer is a Miami mobster who gets sent by his boss, the psychopathic \"Bones\" Barboni, to collect a bad debt from Harry Zimm, a Hollywood producer who specializes in cheesy horror films. When Chili meets Harry's leading lady, the romantic sparks fly. After pitching his own life story as a movie idea, Chili learns that being a mobster and being a Hollywood producer really aren't all that different.",
-    "poster": "/images/GetShorty.jpg",
+    "poster": "images/GetShorty.jpg",
     "year": 1995,
     "popularity": 12.669608
   },
@@ -171,7 +171,7 @@
     "title": "Copycat",
     "rating": 6.5,
     "overview": "An agoraphobic psychologist and a female detective must work together to take down a serial killer who copies serial killers from the past.",
-    "poster": "/images/Copycat.jpg",
+    "poster": "images/Copycat.jpg",
     "year": 1995,
     "popularity": 10.701801
   },
@@ -179,7 +179,7 @@
     "title": "Assassins",
     "rating": 6.0,
     "overview": "Assassin Robert Rath arrives at a funeral to kill a prominent mobster, only to witness a rival hired gun complete the job for him -- with grisly results. Horrified by the murder of innocent bystanders, Rath decides to take one last job and then return to civilian life. But finding his way out of the world of contract killing grows ever more dangerous as Rath falls for his female target and becomes a marked man himself.",
-    "poster": "/images/Assassins.jpg",
+    "poster": "images/Assassins.jpg",
     "year": 1995,
     "popularity": 11.065939
   },
@@ -187,7 +187,7 @@
     "title": "Powder",
     "rating": 6.3,
     "overview": "Harassed by classmates who won't accept his shocking appearance, a shy young man known as \"Powder\" struggles to fit in. But the cruel taunts stop when Powder displays a mysterious power that allows him to do incredible things. This phenomenon changes the lives of all those around him in ways they never could have imagined.",
-    "poster": "/images/Powder.jpg",
+    "poster": "images/Powder.jpg",
     "year": 1995,
     "popularity": 12.133094
   },
@@ -195,7 +195,7 @@
     "title": "Leaving Las Vegas",
     "rating": 7.1,
     "overview": "Ben Sanderson, an alcoholic Hollywood screenwriter who lost everything because of his drinking, arrives in Las Vegas to drink himself to death. There, he meets and forms an uneasy friendship and non-interference pact with prostitute Sera.",
-    "poster": "/images/LeavingLasVegas.jpg",
+    "poster": "images/LeavingLasVegas.jpg",
     "year": 1995,
     "popularity": 10.332025
   },
@@ -203,7 +203,7 @@
     "title": "Othello",
     "rating": 7.0,
     "overview": "The evil Iago pretends to be friend of Othello in order to manipulate him to serve his own end in the film version of this Shakespeare classic.",
-    "poster": "/images/Othello.jpg",
+    "poster": "images/Othello.jpg",
     "year": 1995,
     "popularity": 1.845899
   },
@@ -211,7 +211,7 @@
     "title": "Now and Then",
     "rating": 6.6,
     "overview": "Waxing nostalgic about the bittersweet passage from childhood to puberty in this tender coming-of-age tale, four childhood girlfriends -- Teeny, Chrissy, Samantha and Roberta -- recall the magical summer of 1970. During their walk down memory lane, they reconcile experiences with boys, secrets, bullies and more.",
-    "poster": "/images/NowAndThen.jpg",
+    "poster": "images/NowAndThen.jpg",
     "year": 1995,
     "popularity": 8.681325
   },
@@ -219,7 +219,7 @@
     "title": "Persuasion",
     "rating": 7.4,
     "overview": "This film adaptation of Jane Austen's last novel follows Anne Elliot, the daughter of a financially troubled aristocratic family, who is persuaded to break her engagement to Frederick Wentworth, a young sea captain of meager means. Years later, money troubles force Anne's father to rent out the family estate to Admiral Croft, and Anne is again thrown into company with Frederick -- who is now rich, successful and perhaps still in love with Anne.",
-    "poster": "/images/Persuasion.jpg",
+    "poster": "images/Persuasion.jpg",
     "year": 1995,
     "popularity": 2.228434
   },
@@ -227,7 +227,7 @@
     "title": "The City of Lost Children",
     "rating": 7.6,
     "overview": "A scientist in a surrealist society kidnaps children to steal their dreams, hoping that they slow his aging process.",
-    "poster": "/images/TheCityOfLostChildren.jpg",
+    "poster": "images/TheCityOfLostChildren.jpg",
     "year": 1995,
     "popularity": 9.822423
   },
@@ -235,7 +235,7 @@
     "title": "Shanghai Triad",
     "rating": 6.5,
     "overview": "A provincial boy related to a Shanghai crime family is recruited by his uncle into cosmopolitan Shanghai in the 1930s to be a servant to a ganglord's mistress.",
-    "poster": "/images/ShanghaiTriad.jpg",
+    "poster": "images/ShanghaiTriad.jpg",
     "year": 1995,
     "popularity": 1.100915
   }
