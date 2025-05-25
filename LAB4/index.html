@@ -111,10 +111,7 @@
             filteredMovies.sort((a, b) => b.popularity - a.popularity);
             break;
           case "release-date":
-            const dateA = new Date(a.release_date);
-            const dateB = new Date(b.release_date);
-            console.log(dateA, dateB, dateB - dateA);
-            return dateB - dateA;
+            filteredMovies.sort((a, b) => new Date(b.release_date) - new Date(a.release_date));
             break;
       }
 
