@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <title> main page </title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" type = "text/css" href = "main.css">
+  </head>
+  <body>
+    <div class="wrapper font">
+      <header>
+        <h1 class="slide-header">Welcome to MOVIE SITE</h1>
+
+        <nav>
+          <span><a href="index.html"> 메인페이지</a></span> | 
+          <span><a href="login.html"> 로그인</a></span> | 
+          <span><a href="signup.html"> 회원가입</a></span>
+        </nav>
+      </header>
+
+      <div class="main-container">
+       
+        <section>
+          <input type="text" id="searchInput" placeholder="영화 제목 또는 키워드 검색" />
+          <select id="sortSelect">
+            <option value="">정렬 선택</option>
+            <option value="title">제목순</option>
+            <option value="rating">평점순</option>
+            <option value="popularity">인기순</option>
+            <option value="release_date">최신순</option>
+          </select>
+        </section>
+  
+        <section class="movies table">
+          <h2> Movies </h2>
+          <div class="movies-grid" id="movieList"> </div> 
+        </section>
+
+        <hr class="divider">
+
+        <section class="site-description">
+          <h2>About</h2>
+          <p> 여기는 인프밍 영화 검색 사이트입니다. 원하는 영화를 검색해보세요!
+          </p>
+        </section>
+
+      </div>
+    </div>
+
+    <script>
+      let movies = [];
+      let filteredMovies = [];
+      let start = 0;
+      let limit = 8;
+      
+      document.getElementById("sortSelect").addEventListener("change", filterSort);
+      document.getElementById("searchInput").addEventListener("input", filterSort);
+
+      function loadMovies() {
+        const movieList = document.getElementById('movieList');
+        const end = Math.min(start + limit, filteredMovies.length);
+    
+        for (let i = start; i < end; i++) {
+          const movie = filteredMovies[i];
+          const card = document.createElement('div');
+          card.className = 'movie-card';
+
+          card.innerHTML = `
+            <div class="image-container">
+              <img src="${movie.poster}" alt="${movie.title} 포스터">
+              <div class="movie-overlay">
+                <div class="movie-overview">${movie.overview}</div>
+              </div>
+            </div>
+            <h3>${movie.title}</h3>
+            <p>⭐${movie.rating}</p>
+          `;
+          movieList.appendChild(card);
+        }
+    
+        start = end;
+      }
+    
+      function scroll() {
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 100) {
+          loadMovies();
+        }
+      }
+
+      function filterSort() {
+        start = 0; 
+        const keyword = document.getElementById("searchInput").value.toLowerCase();
+        const sortValue = document.getElementById("sortSelect").value;
+
+        filteredMovies = movies.filter(movie => {
+          const title = (movie.title || '').toLowerCase();
+          return title.includes(keyword) 
+        });
+
+        switch (sortValue) {
+          case "title":
+            filteredMovies.sort((a, b) => a.title.localeCompare(b.title));
+            break;
+          case "rating":
+            filteredMovies.sort((a, b) => b.rating - a.rating);
+            break;
+          case "popularity":
+            filteredMovies.sort((a, b) => b.popularity - a.popularity);
+            break;
+          case "year":
+            filteredMovies.sort((a, b) => new Date(b.year) - new Date(a.year));
+            break;
+      }
+
+      loadedCount = 0;
+      document.getElementById("movieList").innerHTML = "";
+      loadMovies();
+    }
+    
+      window.onload = async () => {
+        try {
+          const response = await fetch('product.json');
+          if (!response.ok) throw new Error('파일 불러오기 실패');
+          movies = await response.json();
+          console.log("불러온 영화 목록:", movies);  
+          filteredMovies = movies;
+          loadMovies();
+          window.addEventListener('scroll', scroll);
+        } catch (err) {
+          console.error('에러 발생:', err);
+        }
+      };
+    </script>
+    </body>
+</html>
