@@ -111,7 +111,11 @@
             filteredMovies.sort((a, b) => b.popularity - a.popularity);
             break;
           case "release-date":
-            filteredMovies.sort((a, b) => new Date(b.release_date) - new Date(a.release_date));
+            filteredMovies.sort((a, b) => {
+              const dateA = a.release_date ? new Date(a.release_date) : new Date(0);
+              const dateB = b.release_date ? new Date(b.release_date) : new Date(0);
+              return dateB - dateA;  
+            });
             break;
       }
 
